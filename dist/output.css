@@ -566,6 +566,31 @@ video {
   margin-bottom: 50px;
 }
 
+.my-\[60px\] {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.my-\[70px\] {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.my-\[65px\] {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.my-\[64px\] {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.my-\[63px\] {
+  margin-top: 63px;
+  margin-bottom: 63px;
+}
+
 .me-1 {
   margin-inline-end: 0.25rem;
 }
