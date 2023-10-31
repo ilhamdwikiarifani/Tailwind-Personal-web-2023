@@ -598,6 +598,10 @@ video {
   margin-top: 50px;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
