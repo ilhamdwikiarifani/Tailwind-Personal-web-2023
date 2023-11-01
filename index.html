@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Ilham Dwiki Arifani</title>
+    <title>Ilham Dwiki Arifani | Full-Stack Developer</title>
 
     <!-- Icons -->
     <script
       src="https://kit.fontawesome.com/2952392494.js"
       crossorigin="anonymous"
     ></script>
-
-    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -218,7 +216,6 @@
     <hr class="my-[50px] border-[1px] border-slate-100" />
 
     <!-- Portofolio Start -->
-
     <div class="mx-w-7xl px-3">
       <div class="flex justify-center items-center">
         <div class="text-center">
@@ -238,7 +235,7 @@
           <div class="mt-7">
             <!-- Card 1 Start-->
             <div
-              class="card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInUp"
+              class="porto-content hidden card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInUp"
               data-wow-duration="1.3s"
               data-wow-delay="0.5s"
             >
@@ -276,9 +273,79 @@
             <!-- Card 1 End -->
             <!-- Card 2 Start-->
             <div
-              class="card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInUp"
-              data-wow-duration="1.3s"
-              data-wow-delay="0.5s"
+              class="porto-content hidden card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInUp"
+            >
+              <img src="./asset/image/p2.png" class="w-full h-full" alt="" />
+
+              <div
+                class="card-body absolute w-full bottom-0 bg-slate-100 h-full p-7 cursor-pointer translate-y-[100%] group-hover:translate-y-[0] transition-transform duration-300"
+              >
+                <div class="text-start font-[inter]">
+                  <p class="text-[16px] font-medium">Laravel Quiz</p>
+                  <p class="text-[13px] my-2">
+                    This beautiful collection of UI components is part of the
+                    recently released Purpose Design System.
+                  </p>
+                  <a href="!#" class="text-[13px]">
+                    Source<i class="fa-solid fa-arrow-right-long ml-1"></i>
+                  </a>
+
+                  <hr class="my-[20px] border-[1px] border-slate-200" />
+                  <div
+                    class="flex justify-start items-center gap-4 text-[13px]"
+                  >
+                    <p>
+                      <i class="fa-brands fa-laravel mr-1 text-[#F51212]"></i
+                      >Laravel
+                    </p>
+                    <p>
+                      <i class="fa-brands fa-bootstrap mr-1 text-[#7c12f5]"></i
+                      >Bootstrap 5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 End -->
+            <!-- Card 2 Start-->
+            <div
+              class="porto-content hidden card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInUp"
+            >
+              <img src="./asset/image/p2.png" class="w-full h-full" alt="" />
+
+              <div
+                class="card-body absolute w-full bottom-0 bg-slate-100 h-full p-7 cursor-pointer translate-y-[100%] group-hover:translate-y-[0] transition-transform duration-300"
+              >
+                <div class="text-start font-[inter]">
+                  <p class="text-[16px] font-medium">Laravel Quiz</p>
+                  <p class="text-[13px] my-2">
+                    This beautiful collection of UI components is part of the
+                    recently released Purpose Design System.
+                  </p>
+                  <a href="!#" class="text-[13px]">
+                    Source<i class="fa-solid fa-arrow-right-long ml-1"></i>
+                  </a>
+
+                  <hr class="my-[20px] border-[1px] border-slate-200" />
+                  <div
+                    class="flex justify-start items-center gap-4 text-[13px]"
+                  >
+                    <p>
+                      <i class="fa-brands fa-laravel mr-1 text-[#F51212]"></i
+                      >Laravel
+                    </p>
+                    <p>
+                      <i class="fa-brands fa-bootstrap mr-1 text-[#7c12f5]"></i
+                      >Bootstrap 5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 End -->
+            <!-- Card 2 Start-->
+            <div
+              class="porto-content hidden card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInUp"
             >
               <img src="./asset/image/p2.png" class="w-full h-full" alt="" />
 
@@ -314,14 +381,10 @@
             <!-- Card 2 End -->
           </div>
 
-          <div
-            class="mt-10 font-[inter] wow fadeInUp"
-            data-wow-duration="1.3s"
-            data-wow-delay="0.6s"
-          >
+          <div class="mt-10 font-[inter] wow fadeInUp">
             <div class="text-[19px]">We have other exciting works</div>
             <div class="mt-5 group">
-              <a href="!#" class="text-[16px]">
+              <a href="!#" class="text-[16px]" id="loadMore">
                 See More<i
                   class="fa-solid fa-arrow-right-long ml-1 group-hover:translate-x-1.5 transition-transform duration-300"
                 ></i>
@@ -331,7 +394,6 @@
         </div>
       </div>
     </div>
-
     <!-- Portofolio End -->
 
     <hr class="mt-[50px] border-[1px] border-slate-100" />
@@ -394,7 +456,11 @@
 
     <hr class="mt-[50px] border-[1px] border-slate-100" />
 
+    <!-- wow Animated -->
     <script src="./lib/wow/wow.js"></script>
+
+    <!-- Jquery -->
+    <script src="./js/jquery.js"></script>
 
     <script>
       new WOW().init();
@@ -411,6 +477,18 @@
         stagger: 0.04,
         delay: 0.02,
         duration: 0.5,
+      });
+
+      $(document).ready(function () {
+        $(".porto-content").slice(0, 3).show();
+
+        $("#loadMore").on("click", function (e) {
+          e.preventDefault();
+          $(".porto-content:hidden").slice(0, 1).slideDown();
+          if ($(".porto-content:hidden").length == 0) {
+            $("#loadMore").text("No Content").addClass("text-red-700");
+          }
+        });
       });
     </script>
   </body>
