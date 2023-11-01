@@ -10,7 +10,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-{
-  /* <div class="latestpost-content wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s"></div> */
-}
