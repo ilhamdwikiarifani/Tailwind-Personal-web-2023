@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
     <title>Ilham Dwiki Arifani</title>
 
     <!-- Icons -->
@@ -11,6 +12,8 @@
       src="https://kit.fontawesome.com/2952392494.js"
       crossorigin="anonymous"
     ></script>
+
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,30 +31,51 @@
     <!-- Animate -->
     <link rel="stylesheet" href="./lib/animate/animate.css" />
   </head>
-  <body class="font-[urbanist]">
+
+  <body class="font-[urbanist] relative">
+    <!-- Blur Section  Start-->
+    <!-- <div>
+      <div
+        class="absolute bg-red-300 w-[120px] h-[120px] top-0 opacity-70 -z-50 blur-3xl"
+      ></div>
+
+      <div
+        class="absolute bg-yellow-300 w-[120px] h-[120px] top-[20rem] opacity-70 right-0 -z-50 blur-3xl"
+      ></div>
+
+      <div
+        class="absolute bg-green-300 w-[120px] h-[120px] bottom-0 left-0 opacity-70 -z-50 blur-3xl"
+      ></div>
+
+      <div
+        class="absolute bg-blue-300 w-[120px] h-[120px] bottom-[20rem] opacity-70 right-0 -z-50 blur-3xl"
+      ></div>
+    </div> -->
+    <!-- Blur Section End -->
+
     <!-- Navbar Start-->
-    <nav class="w-full flex justify-center items-center font-normal">
+    <nav class="w-full flex justify-center items-center font-normal bg-white">
       <div
         class="h-[80px] w-full border-b-[1px] border-slate-300 flex justify-between items-center px-5"
       >
         <div>
           <img src="./asset/image/icon-black.png" class="w-[32px]" alt="" />
         </div>
-        <div class="flex justify-center items-center gap-2">
-          <a href="!#" class="px-3 py-2 border border-slate-300 rounded-xl">
-            <i class="fa-solid fa-house"></i>
+        <div class="flex justify-center items-center gap-3">
+          <a href="!#" class="p-1 rounded-xl">
+            <i class="fa-brands fa-linkedin text-[19px]"></i>
           </a>
-          <a href="!#" class="px-3 py-2 border border-slate-300 rounded-xl">
-            <i class="fa-solid fa-briefcase"></i>
+          <a href="!#" class="p-1 rounded-xl">
+            <i class="fa-brands fa-instagram text-[19px]"></i>
           </a>
-          <a href="!#" class="px-3 py-2 border border-slate-300 rounded-xl">
-            Let's Connect <i class="fa-solid fa-arrow-right-long ml-1"></i>
+          <a href="!#" class="p-1 rounded-xl">
+            <i class="fa-brands fa-github text-[19px]"></i>
           </a>
         </div>
       </div>
     </nav>
-
     <!-- Navbar End -->
+
     <div class="max-w-7xl px-3">
       <!-- Hero Start-->
       <div class="flex justify-center items-center mt-7">
@@ -61,21 +85,14 @@
             <div
               id="split-text"
               style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)"
-              class="text-[45px] leading-normal mt-5 font-medium"
+              class="text-[55px] leading-snug mt-5 font-medium"
             >
-              Crafting Digital Experiences with
-              <span class="text-[#F51212]">
-                <i
-                  class="fa-brands fa-laravel mr-2 wow fadeInUp"
-                  data-wow-duration="1.3s"
-                  data-wow-delay="0.9s"
-                ></i
-                >Laravel</span
-              >
+              Discovering Another <br />
+              <span class="text-[#F51212] font-semibold">Side of Me.</span>
             </div>
             <a
               href="!#"
-              class="px-[30px] py-[10px] bg-slate-800 inline-block text-white rounded-xl mt-5 text-[16px] group wow fadeInUp"
+              class="px-[30px] py-[10px] bg-slate-800 inline-block text-white rounded-xl mt-7 text-[16px] group wow fadeInUp"
               data-wow-duration="1.3s"
               data-wow-delay="0.9s"
             >
@@ -105,199 +122,193 @@
             </div>
 
             <div
-              class="bg-[#DEFFDE] rounded-xl inline-block py-[4px] px-[20px] mt-5"
+              class="bg-[#DEFFDE] rounded-xl inline-block py-[5px] px-[20px] mt-8"
             >
-              <div class="text-[16px]">
+              <div
+                class="text-[16px] text-green-700 font-medium tracking-widest"
+              >
                 <span
                   class="w-[11px] h-[11px] bg-[#25B722] inline-block rounded mr-1 animate-pulse"
                 ></span>
-                Available for work
+                AVAILABLE FOR WORK
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- Hero End -->
+    </div>
 
-      <hr class="my-[50px] border-[1px] border-slate-100" />
+    <hr class="my-[50px] border-[1px] border-slate-100" />
 
-      <!-- Adv Start -->
-      <div class="max-w-7xl px-3">
-        <div class="flex justify-center items-center">
-          <div>
-            <div
-              class="text-center wow fadeInUp"
-              data-wow-duration="1.3s"
-              data-wow-delay="0.5s"
-            >
-              <i
-                class="fa-solid fa-hashtag text-[45px] mr-3 text-[#F51212]"
-              ></i>
-              <span class="text-[24px] font-semibold">Summary</span>
-            </div>
-            <div
-              class="text-[19px] text-center mt-5 font-[inter] wow fadeInUp"
-              data-wow-duration="1.3s"
-              data-wow-delay="0.2s"
-            >
-              I focus on developing websites using
-              <span class="text-[#F51212]"
-                ><i class="fa-brands fa-laravel mr-1"></i>Laravel</span
-              >. I always strive to ensure that the website impresses its
-              visitors and operates smoothly, with an attractive design.
-            </div>
+    <!-- Skill Start -->
+    <div class="max-w-7xl px-3">
+      <div class="flex justify-center items-center relative overflow-x-hidden">
+        <div class="marquee1 whitespace-nowrap">
+          <span class="mx-4 text-[19px] font-[inter]">
+            <i class="fa-brands fa-laravel mr-2 text-[#F51212]"></i>Laravel
+          </span>
+          <span class="mx-4 text-[19px] font-[inter]">
+            <i class="fa-brands fa-bootstrap mr-2 text-[#7c12f5]"></i>Bootstrap
+          </span>
+          <span class="mx-4 text-[19px] font-[inter]">
+            <i class="fa-brands fa-css3 mr-2 text-[#128ff5]"></i>Tailwind CSS
+          </span>
+        </div>
+
+        <div class="marquee2 whitespace-nowrap absolute top-0">
+          <span class="mx-4 text-[19px] font-[inter]">
+            <i class="fa-brands fa-laravel mr-2 text-[#F51212]"></i>Laravel
+          </span>
+          <span class="mx-4 text-[19px] font-[inter]">
+            <i class="fa-brands fa-bootstrap mr-2 text-[#7c12f5]"></i>Bootstrap
+          </span>
+          <span class="mx-4 text-[19px] font-[inter]">
+            <i class="fa-brands fa-css3 mr-2 text-[#128ff5]"></i> Tailwind CSS
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Skill End -->
+
+    <hr class="my-[50px] border-[1px] border-slate-100" />
+
+    <!-- Adv Start -->
+    <div class="max-w-7xl px-3">
+      <div class="flex justify-center items-center">
+        <div>
+          <div
+            class="text-center wow fadeInUp"
+            data-wow-duration="1.3s"
+            data-wow-delay="0.5s"
+          >
+            <i class="fa-solid fa-hashtag text-[45px] mr-3 text-[#F51212]"></i>
+            <span class="text-[24px] font-semibold">Summary</span>
+          </div>
+          <div
+            class="text-[19px] text-center mt-5 font-[inter] wow fadeInUp"
+            data-wow-duration="1.3s"
+            data-wow-delay="0.2s"
+          >
+            I focus on developing websites using
+            <span class="text-[#F51212]"
+              ><i class="fa-brands fa-laravel mr-1"></i>Laravel</span
+            >. I always strive to ensure that the website impresses its visitors
+            and operates smoothly, with an attractive design.
           </div>
         </div>
       </div>
-      <!-- Adv End -->
+    </div>
+    <!-- Adv End -->
 
-      <hr class="my-[50px] border-[1px] border-slate-100" />
+    <hr class="my-[50px] border-[1px] border-slate-100" />
 
-      <!-- Portofolio Start -->
+    <!-- Portofolio Start -->
 
-      <div class="mx-w-7xl px-3">
-        <div class="flex justify-center items-center">
-          <div class="text-center">
-            <div class="text-[24px] font-semibold wow fadeInUp">Portofolio</div>
-            <div
-              class="mt-5 text-[19px] font-[inter] wow fadeInUp"
-              data-wow-duration="1.3s"
-              data-wow-delay="0.2s"
-            >
-              Check out our portofolio to see some of our recent work. You can
-              see more awesome stuff on
-              <span class="font-medium"
-                ><i class="fa-brands fa-github ml-1"></i> Github</span
-              >.
-            </div>
-
-            <div class="mt-7">
-              <!-- Card 1 Start-->
-              <div
-                class="card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInRight"
-                data-wow-duration="1.3s"
-                data-wow-delay="0.5s"
-              >
-                <img src="./asset/image/p1.png" class="w-full h-full" alt="" />
-
-                <div
-                  class="card-body absolute w-full bottom-0 bg-slate-100 h-full p-7 cursor-pointer translate-y-[100%] group-hover:translate-y-[0] transition-transform duration-300"
-                >
-                  <div class="text-start font-[inter]">
-                    <p class="text-[16px] font-medium">Laravel Quiz</p>
-                    <p class="text-[13px] my-2">
-                      This beautiful collection of UI components is part of the
-                      recently released Purpose Design System.
-                    </p>
-                    <a href="!#" class="text-[13px]">
-                      Source<i class="fa-solid fa-arrow-right-long ml-1"></i>
-                    </a>
-
-                    <hr class="my-[20px] border-[1px] border-slate-200" />
-                    <div
-                      class="flex justify-start items-center gap-4 text-[13px]"
-                    >
-                      <p>
-                        <i class="fa-brands fa-laravel mr-1 text-[#F51212]"></i
-                        >Laravel
-                      </p>
-                      <p>
-                        <i
-                          class="fa-brands fa-bootstrap mr-1 text-[#7c12f5]"
-                        ></i
-                        >Bootstrap 5
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 1 End -->
-              <!-- Card 2 Start-->
-              <div
-                class="card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInLeft"
-                data-wow-duration="1.3s"
-                data-wow-delay="0.5s"
-              >
-                <img src="./asset/image/p2.png" class="w-full h-full" alt="" />
-
-                <div
-                  class="card-body absolute w-full bottom-0 bg-slate-100 h-full p-7 cursor-pointer translate-y-[100%] group-hover:translate-y-[0] transition-transform duration-300"
-                >
-                  <div class="text-start font-[inter]">
-                    <p class="text-[16px] font-medium">Laravel Quiz</p>
-                    <p class="text-[13px] my-2">
-                      This beautiful collection of UI components is part of the
-                      recently released Purpose Design System.
-                    </p>
-                    <a href="!#" class="text-[13px]">
-                      Source<i class="fa-solid fa-arrow-right-long ml-1"></i>
-                    </a>
-
-                    <hr class="my-[20px] border-[1px] border-slate-200" />
-                    <div
-                      class="flex justify-start items-center gap-4 text-[13px]"
-                    >
-                      <p>
-                        <i class="fa-brands fa-laravel mr-1 text-[#F51212]"></i
-                        >Laravel
-                      </p>
-                      <p>
-                        <i
-                          class="fa-brands fa-bootstrap mr-1 text-[#7c12f5]"
-                        ></i
-                        >Bootstrap 5
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 2 End -->
-            </div>
-
-            <div
-              class="mt-10 font-[inter] wow fadeInUp"
-              data-wow-duration="1.3s"
-              data-wow-delay="0.6s"
-            >
-              <div class="text-[19px]">We have other exciting works</div>
-              <div class="mt-5 group">
-                <a href="!#" class="text-[16px]">
-                  See More<i
-                    class="fa-solid fa-arrow-right-long ml-1 group-hover:translate-x-1.5 transition-transform duration-300"
-                  ></i>
-                </a>
-              </div>
-            </div>
+    <div class="mx-w-7xl px-3">
+      <div class="flex justify-center items-center">
+        <div class="text-center">
+          <div class="text-[24px] font-semibold wow fadeInUp">Portofolio</div>
+          <div
+            class="mt-5 text-[19px] font-[inter] wow fadeInUp"
+            data-wow-duration="1.3s"
+            data-wow-delay="0.2s"
+          >
+            Check out our portofolio to see some of our recent work. You can see
+            more awesome stuff on
+            <span class="font-medium"
+              ><i class="fa-brands fa-github ml-1"></i> Github</span
+            >.
           </div>
-        </div>
-      </div>
 
-      <!-- Portofolio End -->
-
-      <hr class="my-[50px] border-[1px] border-slate-100" />
-
-      <!-- Contact Start -->
-      <div class="mx-w-7xl px-3">
-        <div class="flex justify-center items-center">
-          <div class="text-center">
-            <div class="text-[24px] font-semibold wow fadeInUp">
-              Do you like what you see? Feel free to reach out
-            </div>
+          <div class="mt-7">
+            <!-- Card 1 Start-->
             <div
-              class="text-[16px] mt-5 font-[inter] wow fadeInUp"
+              class="card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInRight"
               data-wow-duration="1.3s"
               data-wow-delay="0.5s"
             >
-              I am always open to new opportunities and collaborations. If you
-              have any questions or need help with a project.
+              <img src="./asset/image/p1.png" class="w-full h-full" alt="" />
+
+              <div
+                class="card-body absolute w-full bottom-0 bg-slate-100 h-full p-7 cursor-pointer translate-y-[100%] group-hover:translate-y-[0] transition-transform duration-300"
+              >
+                <div class="text-start font-[inter]">
+                  <p class="text-[16px] font-medium">Laravel Quiz</p>
+                  <p class="text-[13px] my-2">
+                    This beautiful collection of UI components is part of the
+                    recently released Purpose Design System.
+                  </p>
+                  <a href="!#" class="text-[13px]">
+                    Source<i class="fa-solid fa-arrow-right-long ml-1"></i>
+                  </a>
+
+                  <hr class="my-[20px] border-[1px] border-slate-200" />
+                  <div
+                    class="flex justify-start items-center gap-4 text-[13px]"
+                  >
+                    <p>
+                      <i class="fa-brands fa-laravel mr-1 text-[#F51212]"></i
+                      >Laravel
+                    </p>
+                    <p>
+                      <i class="fa-brands fa-bootstrap mr-1 text-[#7c12f5]"></i
+                      >Bootstrap 5
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- Card 1 End -->
+            <!-- Card 2 Start-->
             <div
-              class="mt-5 group font-[inter] wow fadeInUp"
+              class="card-wrapper w-full h-[230px] bg-slate-400 rounded-xl mt-5 object-cover relative overflow-hidden group wow fadeInLeft"
               data-wow-duration="1.3s"
-              data-wow-delay="0.7s"
+              data-wow-delay="0.5s"
             >
+              <img src="./asset/image/p2.png" class="w-full h-full" alt="" />
+
+              <div
+                class="card-body absolute w-full bottom-0 bg-slate-100 h-full p-7 cursor-pointer translate-y-[100%] group-hover:translate-y-[0] transition-transform duration-300"
+              >
+                <div class="text-start font-[inter]">
+                  <p class="text-[16px] font-medium">Laravel Quiz</p>
+                  <p class="text-[13px] my-2">
+                    This beautiful collection of UI components is part of the
+                    recently released Purpose Design System.
+                  </p>
+                  <a href="!#" class="text-[13px]">
+                    Source<i class="fa-solid fa-arrow-right-long ml-1"></i>
+                  </a>
+
+                  <hr class="my-[20px] border-[1px] border-slate-200" />
+                  <div
+                    class="flex justify-start items-center gap-4 text-[13px]"
+                  >
+                    <p>
+                      <i class="fa-brands fa-laravel mr-1 text-[#F51212]"></i
+                      >Laravel
+                    </p>
+                    <p>
+                      <i class="fa-brands fa-bootstrap mr-1 text-[#7c12f5]"></i
+                      >Bootstrap 5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 End -->
+          </div>
+
+          <div
+            class="mt-10 font-[inter] wow fadeInUp"
+            data-wow-duration="1.3s"
+            data-wow-delay="0.6s"
+          >
+            <div class="text-[19px]">We have other exciting works</div>
+            <div class="mt-5 group">
               <a href="!#" class="text-[16px]">
-                Let's Connect<i
+                See More<i
                   class="fa-solid fa-arrow-right-long ml-1 group-hover:translate-x-1.5 transition-transform duration-300"
                 ></i>
               </a>
@@ -305,32 +316,66 @@
           </div>
         </div>
       </div>
-      <!-- Contact End -->
+    </div>
 
-      <hr class="my-[50px] border-[1px] border-slate-100" />
+    <!-- Portofolio End -->
 
-      <!-- Footer Start -->
-      <div class="max-w-7xl px-3">
-        <div class="flex justify-center items-center">
-          <div class="text-center wow fadeInUp">
-            Follow me for more thoughts and updates on
-            <span class="font-semibold"
-              ><i class="fa-brands fa-github mx-1"></i>Github</span
-            >,
-            <span class="font-semibold"
-              ><i class="fa-brands fa-instagram mx-1"></i>Instagram</span
-            >
+    <hr class="my-[50px] border-[1px] border-slate-100" />
 
-            <div class="mt-10">
-              © 2023. <span class="font-medium">Codeneko</span>.
-            </div>
+    <!-- Contact Start -->
+    <div class="mx-w-7xl px-3">
+      <div class="flex justify-center items-center">
+        <div class="text-center">
+          <div class="text-[24px] font-semibold wow fadeInUp">
+            Do you like what you see? Feel free to reach out
+          </div>
+          <div
+            class="text-[16px] mt-5 font-[inter] wow fadeInUp"
+            data-wow-duration="1.3s"
+            data-wow-delay="0.5s"
+          >
+            I am always open to new opportunities and collaborations. If you
+            have any questions or need help with a project.
+          </div>
+          <div
+            class="mt-5 group font-[inter] wow fadeInUp"
+            data-wow-duration="1.3s"
+            data-wow-delay="0.7s"
+          >
+            <a href="!#" class="text-[16px]">
+              Let's Connect<i
+                class="fa-solid fa-arrow-right-long ml-1 group-hover:translate-x-1.5 transition-transform duration-300"
+              ></i>
+            </a>
           </div>
         </div>
       </div>
-      <!-- Footer End -->
-
-      <hr class="mt-[50px] border-[1px] border-slate-100" />
     </div>
+    <!-- Contact End -->
+
+    <hr class="my-[50px] border-[1px] border-slate-100" />
+
+    <!-- Footer Start -->
+    <div class="max-w-7xl px-3">
+      <div class="flex justify-center items-center">
+        <div class="text-center wow fadeInUp">
+          Follow me for more thoughts and updates on
+          <span class="font-semibold"
+            ><i class="fa-brands fa-github mx-1"></i>Github</span
+          >,
+          <span class="font-semibold"
+            ><i class="fa-brands fa-instagram mx-1"></i>Instagram</span
+          >
+
+          <div class="mt-10">
+            © 2023. <span class="font-medium">Codeneko</span>.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <hr class="mt-[50px] border-[1px] border-slate-100" />
 
     <script src="./lib/wow/wow.js"></script>
 
