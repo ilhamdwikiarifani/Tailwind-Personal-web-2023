@@ -958,6 +958,16 @@ video {
   padding-bottom: 35px;
 }
 
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py-\[7px\] {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
 .text-center {
   text-align: center;
 }
