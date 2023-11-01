@@ -1,11 +1,11 @@
 .marquee1 {
   display: inline-block;
-  animation: marquee 25s linear infinite; /* Ubah 10s sesuai kecepatan yang Anda inginkan */
+  animation: marquee 20s linear infinite; /* Ubah 10s sesuai kecepatan yang Anda inginkan */
 }
 
 .marquee2 {
   display: inline-block;
-  animation: marquee2 25s linear infinite; /* Ubah 10s sesuai kecepatan yang Anda inginkan */
+  animation: marquee2 20s linear infinite; /* Ubah 10s sesuai kecepatan yang Anda inginkan */
 }
 
 @keyframes marquee {
